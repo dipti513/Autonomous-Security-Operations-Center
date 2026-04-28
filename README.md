@@ -14,18 +14,6 @@ This repository contains a greenfield Autonomous Security Operations Center (ASO
 - PostgreSQL stores incidents, firewall actions, and audit entries.
 - A vector layer is represented by fingerprint storage hooks so the MVP can enrich explanations without making enforcement decisions from retrieval alone.
 
-## Repository Layout
-
-- [spring-boot-app](C:\Users\Aditi\OneDrive\Desktop\ASOC\spring-boot-app)
-- [ai-orchestrator](C:\Users\Aditi\OneDrive\Desktop\ASOC\ai-orchestrator)
-- [react-dashboard](C:\Users\Aditi\OneDrive\Desktop\ASOC\react-dashboard)
-- [ops](C:\Users\Aditi\OneDrive\Desktop\ASOC\ops)
-
-## Local Notes
-
-- The workspace currently has bundled Python and Node runtimes available through Codex.
-- Java and Maven are not installed on PATH in this environment, so the Spring Boot service is scaffolded but not executed here.
-- The Python service includes runnable unit tests for core detection and orchestration logic.
 
 ## Suggested Run Order
 
